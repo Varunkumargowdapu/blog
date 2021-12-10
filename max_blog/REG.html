@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="reg.css">
+</head>
+<body>
+
+<h2>About Us</h2>
+<p>The e-Learning Center (ELC) assists faculty in the <br>
+  effective use of technologies to enhance teaching and learning.<br>
+  Our focus is on the good design and effective delivery of fully online courses.<br>
+  We provide phone support, small group training, and one-on-one consultation to help <br>
+  faculty learn to build appealing online courses, develop engaging online teaching methods,<br>
+  and to find or create appropriate media and course materials to encourage student engagement and success.</p>
+
+<h2>Contact Us</h2>
+<p><h3>Maxpert</h3></p>
+<p><a href="mailto:maxpert@edu.com">Mail</a></p>
+<p>No 34, 12th main, BHCS Layout<br>
+    ramanagara,Mysore</p>
+<p>contact:080-24924256</p>
+
+<p><a href="C:\Users\uvarun\Downloads\Blog_Project\index.html">Back to home</a></p>
+<button class="open-button" onclick="openForm()">Open Form</button>
+
+<div class="form-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h1>Registratin Form</h1>
+
+    <label for="name"><b>Name</b></label>
+    <input type="text" placeholder="Enter Name" name="name" required>
+
+    <label for="number"><b>Mobile</b></label>
+    <input type="text" placeholder="Enter number" name="number" required><br>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="address"><b>Address</b></label>
+    <input type="text" placeholder="Enter Address" name="address" required>
+
+    <button type="submit" class="btn">Register</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+
+</body>
+</html>

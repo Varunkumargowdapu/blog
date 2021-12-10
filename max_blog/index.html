@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogging Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<style>
+   body{
+            background: url(https://thumbs.dreamstime.com/b/education-icon-hand-innovative-online-e-learning-internet-technology-concept-webinar-knowledge-training-courses-skill-168577248.jpg);
+            background-size: cover;
+            font-family: sans-serif;
+            }
+</style>
+
+<body> 
+    
+    <div class="card text-center" style="color: green;">
+        <div class="card-header"> <h2>MAXPERT</h2>
+            <h4>Online Trainings</h4></div>
+    </div>
+    <!-- <style>
+        #ra{
+            border: aqua;
+            border-radius: 20px;
+        }
+    </style> -->
+    <script src="script.js"></script>   
+    
+
+        <ul class="nav" id="ra">
+            <li class="nav-item"><a class="nav-link active"  href="info-demo.html" target="_blank">Home</a></li>
+            <li class="nav-item"><a class="nav-link active" href="REG.html" target="_blank">Register</a></li>
+            <li class="nav-item"><a class="nav-link active" href="login-demo.html" target="_blank">Login</a></li>
+            <li class="nav-item"><a class="nav-link active" href="post-demo.html" target="_blank">Post_Article</a></li>
+            <button type="display" id="dis">Refresh To View Updated Posts</button>
+        </ul>
+        <h2>Maxpert</h2>
+        <p>Maxpert is the world’s #1 online bootcamp and one of the world’s leading certification training providers.<br>
+          We partner with companies and individuals to address their unique needs,<br>
+          providing training and coaching that helps working professionals achieve their career goals.</p>
+    <h1 id="main" style=></h1>
+    
+    <script>
+        document.getElementById('dis')
+        .addEventListener('click',display)
+        const myform = document.getElementById("ra")
+        myform.addEventListener("display",(e)=>{e.preventDefault();});
+    </script>
+    
+    <footer><div class="card text-center" style="color: green;">
+        <div class="card-footer">Thank you. Visit again for any information</div>
+    </div>
+</footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
